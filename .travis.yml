@@ -1,0 +1,16 @@
+sudo: false
+branches:
+  only:
+  - master
+notifications:
+  slack:
+    secure: eWKTZAxUxwp/G34aHNtNlaQtlkyUwhSMntDQ3mBERgFhEEd9ofmKlGHPDMHMtFwjRdhDA3gj5poYv4UjT05BlyU0SKlXvCpxjaMH07FABVtdXLNmNmX3v+gwV4DL5MzPl6qkPQuZH/1LGXXg6nI846GDhQ5uD5ox5BFZ82ns69M=
+after_script:
+- uptime && vmstat -S M
+language: ruby
+rvm:
+- 1.9.3
+- 2.0.0
+- 2.1
+- 2.2
+cache: bundler
