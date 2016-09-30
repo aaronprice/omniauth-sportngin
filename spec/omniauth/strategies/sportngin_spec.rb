@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe OmniAuth::Strategies::SportNgin do
+describe OmniAuth::Strategies::Sportngin do
   subject { described_class.new({}) }
 
   context "client options" do

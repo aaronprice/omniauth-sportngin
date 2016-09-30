@@ -3,8 +3,8 @@ require 'multi_json'
 
 module OmniAuth
   module Strategies
-    class SportNgin < OAuth2
-      option :name, "sportngin"
+    class Sportngin < OAuth2
+      option :name, :sportngin
 
       option :client_options, {
         site: 'https://api.sportngin.com',

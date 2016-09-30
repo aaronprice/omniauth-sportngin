@@ -1,5 +1,5 @@
 module OmniAuth
-  module SportNgin
+  module Sportngin
     VERSION = "0.1.0"
   end
 end

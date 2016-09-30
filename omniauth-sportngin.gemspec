@@ -4,7 +4,7 @@ require 'omniauth-sportngin/version'
 
 Gem::Specification.new do |s|
   s.name     = 'omniauth-sportngin'
-  s.version  = OmniAuth::SportNgin::VERSION
+  s.version  = OmniAuth::Sportngin::VERSION
   s.authors  = ['Jon Phenow']
   s.email    = ['jon.phenow@sportngin.com']
   s.summary  = 'Sport Ngin strategy for OmniAuth'
