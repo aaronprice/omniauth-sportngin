@@ -43,7 +43,7 @@ Here's an example Auth Hash available in `request.env['omniauth.auth']`:
     expires: true,
     expires_at: 1434161779,
     refresh_token: "refresh-token",
-    token="access-token"
+    token: "access-token"
   },
   extra: {
     raw_info: {
