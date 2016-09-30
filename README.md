@@ -1,4 +1,4 @@
-SportNgin OAuth2 Strategy for OmniAuth 1.0.
+Sportngin OAuth2 Strategy for OmniAuth 1.0.
 
 Supports connection with Sport Ngin users.
 
@@ -14,7 +14,7 @@ Then `bundle install`.
 
 ## Usage
 
-`OmniAuth::Strategies::SportNgin` is simply a Rack middleware. Read the OmniAuth 1.0 docs for detailed instructions: https://github.com/intridea/omniauth.
+`OmniAuth::Strategies::Sportngin` is simply a Rack middleware. Read the OmniAuth 1.0 docs for detailed instructions: https://github.com/intridea/omniauth.
 
 Here's a quick example, adding the middleware to a Rails app in `config/initializers/omniauth.rb`:
 
@@ -76,7 +76,7 @@ Access Tokens last 30 minutes. Refresh Tokens last one month.
 
 ## TODO
 
-*Still needs implemented for SportNgin-Omniauth, though this is how Facebook does it*
+*Still needs implemented for Sportngin-Omniauth, though this is how Facebook does it*
 
 You can configure several options, which you pass in to the `provider` method via a `Hash`:
 
