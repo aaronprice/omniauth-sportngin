@@ -9,8 +9,8 @@ module OmniAuth
       option :client_options, {
         site: 'https://api.sportngin.com',
         authorize_url: 'https://user.sportngin.com/oauth/authorize',
-        token_url: 'https://api.sportngin.com/oauth/token',
-        me_url: 'https://api.sportngin.com/oauth/me'
+        token_url: 'https://user.sportngin.com/oauth/token',
+        me_url: 'https://user.sportngin.com/oauth/me'
       }
 
       uid { user['id'] }
